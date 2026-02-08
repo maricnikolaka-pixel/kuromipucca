@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Letter</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Story+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Envelope Screen -->
+    <div id="envelope-container">
+        <img src="kuromi-kuromi-cute.gif" alt="Envelope" id="envelope" />
+        <p id="envelope-text">CLICK TO OPEN THE LETTER</p>
+    </div>
+
+    <!-- Letter Screen -->
+    <div id="letter-container">
+        <div class="letter-window">
+            <h1 id="letter-title">WILL YOU BE MY VALENTINES?</h1>
+
+            <!-- Big initial GIF -->
+            <img src="garu-kri.gif" class="cat" id="letter-cat" />
+
+            <!-- Buttons -->
+            <div id="letter-buttons">
+                <img src="yes2.gif" class="btn yes-btn" alt="Yes" />
+                <div class="no-wrapper">
+                    <img src="no.button.gif" class="btn no-btn" alt="No"/>
+                </div>
+            </div>
+
+            <!-- GIF after Yes clicked -->
+            <img id="yes-gif" src="pucca-garu.gif" />
+
+            <!-- Final text hidden initially -->
+            <p id="final-text" class="final-text">
+                <strong>Valentines:</strong> See you at 13:00!
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
